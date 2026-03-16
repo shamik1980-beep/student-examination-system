@@ -9,6 +9,8 @@ public class Main {
         StudentView view = new StudentView();
         StudentController controller = new StudentController(view);
 
+        // branch- add students updated with StudentsController Class 
+
         controller.addStudent(new Student(101, "Amit", "Mathematics", 78));
         controller.addStudent(new Student(102, "Riya", "Physics", 35));
         controller.addStudent(new Student(103, "Sohan", "Chemistry", 64));
