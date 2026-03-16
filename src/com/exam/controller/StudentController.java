@@ -13,6 +13,7 @@ public class StudentController {
         this.view = view;
     }
 
+    // this is a branch of main 
     public void addStudent(Student student) {
         studentList.add(student);
         view.showMessage("Student added successfully.");
